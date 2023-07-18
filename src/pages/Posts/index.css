@@ -1,0 +1,17 @@
+.posts-container {
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 1200px;
+}
+
+.posts-container .search-input {
+    width: 400px;
+}
+
+.posts-container .all-users-link {
+    text-decoration: none;
+    color: black;
+}
