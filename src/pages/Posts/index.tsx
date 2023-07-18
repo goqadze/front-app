@@ -1,6 +1,6 @@
 import './index.css';
 import {Link, useLocation, useParams} from "react-router-dom";
-import React, {ChangeEventHandler, useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {useMutation, useQuery} from "react-query";
 import {Post} from "../../types";
 import {Button, Input, Table} from "antd";
