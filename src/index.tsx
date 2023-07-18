@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {RouterProvider} from "react-router-dom";
-import axios from "axios";
 import router from "./App";
 import {QueryClient, QueryClientProvider} from "react-query";
 

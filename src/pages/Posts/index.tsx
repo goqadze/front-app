@@ -49,7 +49,7 @@ const Posts = () => {
         if (deletePost.isSuccess) {
             refetch();
         }
-    }, [deletePost.isSuccess]);
+    }, [deletePost.isSuccess, refetch]);
 
     const onDelete = (postId: number) => {
         deletePost.mutate(postId);
